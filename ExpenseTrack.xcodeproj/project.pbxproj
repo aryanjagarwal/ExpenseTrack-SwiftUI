@@ -11,6 +11,7 @@
 		7AC13B0E295ACC9B005BF41E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC13B0D295ACC9B005BF41E /* ContentView.swift */; };
 		7AC13B10295ACC9D005BF41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC13B0F295ACC9D005BF41E /* Assets.xcassets */; };
 		7AC13B13295ACC9D005BF41E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC13B12295ACC9D005BF41E /* Preview Assets.xcassets */; };
+		7AC13B1A295ACF75005BF41E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC13B19295ACF75005BF41E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7AC13B0D295ACC9B005BF41E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AC13B0F295ACC9D005BF41E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AC13B12295ACC9D005BF41E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AC13B19295ACF75005BF41E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7AC13B0B295ACC9B005BF41E /* ExpenseTrackApp.swift */,
 				7AC13B0D295ACC9B005BF41E /* ContentView.swift */,
+				7AC13B19295ACF75005BF41E /* Extensions.swift */,
 				7AC13B0F295ACC9D005BF41E /* Assets.xcassets */,
 				7AC13B11295ACC9D005BF41E /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AC13B0E295ACC9B005BF41E /* ContentView.swift in Sources */,
+				7AC13B1A295ACF75005BF41E /* Extensions.swift in Sources */,
 				7AC13B0C295ACC9B005BF41E /* ExpenseTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
