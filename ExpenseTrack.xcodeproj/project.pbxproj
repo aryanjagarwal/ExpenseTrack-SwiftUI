@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A08FBF9295C1F660099EA1E /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08FBF8295C1F660099EA1E /* TransactionModel.swift */; };
+		7A08FBFB295C21590099EA1E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08FBFA295C21590099EA1E /* PreviewData.swift */; };
+		7A08FBFD295C23400099EA1E /* TransactionRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08FBFC295C23400099EA1E /* TransactionRaw.swift */; };
 		7AC13B0C295ACC9B005BF41E /* ExpenseTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC13B0B295ACC9B005BF41E /* ExpenseTrackApp.swift */; };
 		7AC13B0E295ACC9B005BF41E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC13B0D295ACC9B005BF41E /* ContentView.swift */; };
 		7AC13B10295ACC9D005BF41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC13B0F295ACC9D005BF41E /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A08FBF8295C1F660099EA1E /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		7A08FBFA295C21590099EA1E /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		7A08FBFC295C23400099EA1E /* TransactionRaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRaw.swift; sourceTree = "<group>"; };
 		7AC13B08295ACC9B005BF41E /* ExpenseTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC13B0B295ACC9B005BF41E /* ExpenseTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackApp.swift; sourceTree = "<group>"; };
 		7AC13B0D295ACC9B005BF41E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +61,8 @@
 			children = (
 				7AC13B0B295ACC9B005BF41E /* ExpenseTrackApp.swift */,
 				7AC13B0D295ACC9B005BF41E /* ContentView.swift */,
+				7A08FBF8295C1F660099EA1E /* TransactionModel.swift */,
+				7A08FBFC295C23400099EA1E /* TransactionRaw.swift */,
 				7AC13B19295ACF75005BF41E /* Extensions.swift */,
 				7AC13B0F295ACC9D005BF41E /* Assets.xcassets */,
 				7AC13B11295ACC9D005BF41E /* Preview Content */,
@@ -66,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				7AC13B12295ACC9D005BF41E /* Preview Assets.xcassets */,
+				7A08FBFA295C21590099EA1E /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A08FBFB295C21590099EA1E /* PreviewData.swift in Sources */,
+				7A08FBF9295C1F660099EA1E /* TransactionModel.swift in Sources */,
 				7AC13B0E295ACC9B005BF41E /* ContentView.swift in Sources */,
+				7A08FBFD295C23400099EA1E /* TransactionRaw.swift in Sources */,
 				7AC13B1A295ACF75005BF41E /* Extensions.swift in Sources */,
 				7AC13B0C295ACC9B005BF41E /* ExpenseTrackApp.swift in Sources */,
 			);
